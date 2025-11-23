@@ -1,0 +1,11 @@
+{
+  "model_name": "GRU",
+  "units": 128,
+  "learning_rate": 0.00010880878298250268,
+  "batch_size": 64,
+  "epochs_trained": 72,
+  "final_train_loss": 994.1533813476562,
+  "final_val_loss": 340.1520080566406,
+  "final_train_mae": 20.931884765625,
+  "final_val_mae": 12.793950080871582
+}

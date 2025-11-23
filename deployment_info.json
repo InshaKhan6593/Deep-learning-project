@@ -1,0 +1,18 @@
+{
+    "model_name": "demand_prediction_model",
+    "run_id": "9d19e93429ff446d8cc265eb8142e95a",
+    "model_uri": "runs:/9d19e93429ff446d8cc265eb8142e95a/model",
+    "artifact_path": "model",
+    "status": "production",
+    "model_type": "GRU",
+    "deployment_ready": true,
+    "instructions": {
+        "download_artifacts": "Use this URI to download: runs:/9d19e93429ff446d8cc265eb8142e95a/model",
+        "mlflow_ui": "https://dagshub.com/InshaKhan6593/Deep-learning-project.mlflow/#/experiments/2/runs/9d19e93429ff446d8cc265eb8142e95a",
+        "load_in_python": [
+            "import mlflow",
+            "artifacts = mlflow.artifacts.download_artifacts('runs:/9d19e93429ff446d8cc265eb8142e95a/model')",
+            "# Then load model.keras and encoder.joblib from artifacts folder"
+        ]
+    }
+}
